@@ -1,0 +1,89 @@
+body{
+   background-image: url(money.jpeg);
+
+}
+
+#title{
+   font-weight: bolder;
+   color: snow;
+   text-align: center;
+}
+
+#words{
+   font-weight: bold;
+   color: aliceblue;
+   text-align: left ;
+}
+
+#currency-one{
+   background-color: aliceblue;
+   color: black;
+}
+
+#swap{
+   color: black;
+   background-color: gold;
+   border-radius: 5px;
+   font-size: 16px;
+   padding: 5px 24px;
+   margin: 15px 0;
+   text-transform: uppercase;
+   border-style: none;
+
+}
+
+#currency-two{
+   background-color: aliceblue;
+   color: black;
+}
+.currency{
+   color: black;
+   background-color: aliceblue;
+   box-sizing: border-box;
+   width: fit-content;
+   border-radius: 5px;
+   font-size: 16px;
+   padding: 5px 24px;
+   margin: 15px 0;
+   text-transform: uppercase;
+   border-style: none;
+}
+#amount-one{
+   margin-left: 65px;
+}
+
+#amount-two{
+   margin-left: 65px;
+}
+.currency2{
+   color: black;
+   align-items: center;
+   justify-content: space-between;
+   background-color: aliceblue;
+   box-sizing: border-box;
+   width: fit-content;
+   border-radius: 5px;
+   font-size: 16px;
+   padding: 5px 24px;
+   margin: 15px 0;
+   text-transform: uppercase;
+   border-style: none;
+}
+
+.swap-rate-container{
+   display: flex;
+   align-items: center;
+   width: fit-content;
+   font-size: 16px;
+   padding: 5px;
+   text-transform: uppercase;
+   border-style: none;
+}
+
+.rate{
+   color: snow;
+   font-size: 18px;
+   padding: 0 50px;
+}
+
+

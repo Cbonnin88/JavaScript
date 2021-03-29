@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:https="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="currencyConverter.css">
+</head>
+<body>
+<h1 id="title">Currency Converter</h1>
+<p id="words">Choose the currency and the amount that you would like to convert</p>
+<div class="container">
+    <div class="currency">
+         <label for="currency-one"></label><select id="currency-one">
+            <option value="USD" selected>USD</option>
+            <option value="EUR">EUR</option>
+            <option value="JPY">JPY</option>
+            <option value="GBP">GBP</option>
+            <option value="KRW">KRW</option>
+        </select>
+        <label for="amount-one"></label><input type="number" id="amount-one" placeholder="0" value="0">
+    </div>
+
+    <div class="swap-rate-container">
+        <button class="btn" id="swap">Swap<i class="fa fa-refresh"></i></button>
+        <div class="rate" id="rate"></div>
+    </div>
+    <div class="currency2">
+        <label for="currency-two"></label><select id="currency-two">
+        <option value="USD">USD</option>
+        <option value="EUR" selected>EUR</option>
+        <option value="JPY">JPY</option>
+        <option value="GBP">GBP</option>
+        <option value="KRW">KRW</option>
+    </select>
+        <label for="amount-two"></label><input type="number" id="amount-two" placeholder="0" value="0">
+    </div>
+    </div>
+<script src="currencyConverter.js"></script>
+</body>
+</html>
