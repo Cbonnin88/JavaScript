@@ -9,7 +9,7 @@ console.log('Number Types: ' + number + decimal);
 // Strings:
 let name = 'Chris';
 let lastName = 'Bonnin';
-console.log('String Types: ' + name + lastName);
+console.log('String Types: ' + name + lastName); // Prints String Types : Christopher Bonnin
 
 //Booleans:
 let truthy = true;
