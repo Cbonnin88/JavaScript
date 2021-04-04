@@ -24,6 +24,6 @@ let absent = undefined;
 console.log('Undefined Type: ' + absent);
 
 // Object: Collections of related data:
-let data = <object data="Homes" type="String"></object>
+let data = <object data="Homes" type="String"/>
 console.log('Object Type: ' + data);
 
