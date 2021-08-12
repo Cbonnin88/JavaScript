@@ -9,11 +9,11 @@ let man = 'Luther Thompson';
 let woman = 'Alison Reeds';
 let carModel = 'Audi';
 let city = 'Chartres';
-console.log(man + " is of type " + typeof man)
-console.log(woman + " is of type " + typeof woman)
-console.log(carModel + " is of type " + typeof carModel)
-console.log(city + " is of type " + typeof city)
-console.log("")
+console.log(man + " is of type " + typeof man);
+console.log(woman + " is of type " + typeof woman);
+console.log(carModel + " is of type " + typeof carModel);
+console.log(city + " is of type " + typeof city);
+console.log("");
 
 /*
 The backslash escape character '\' turns special characters into string characters
