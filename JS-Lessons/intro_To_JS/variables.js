@@ -43,6 +43,18 @@ console.log("")
 // variables with let cannot be redeclared
 
 // The 'const' keyword was introduced in ES6
+const name3 = "Ethan Winters"
+const age3 = 34;
+const isHuman3 = false;
+const empty3 = undefined;
+console.log("const keyword:")
+console.log(name3)
+console.log(age3)
+console.log(isHuman3)
+console.log(empty3)
+
+// like 'let', a const variable cannot be reassigned
+
 
 
 
