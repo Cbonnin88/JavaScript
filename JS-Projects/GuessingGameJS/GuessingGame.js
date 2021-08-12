@@ -10,7 +10,7 @@ btn.addEventListener('click',function (){
     tries++
 
     if(answer === guess){
-        output.innerHTML = `You got it !!!, the right number was ${guess}. it only took you ${tries} tries`
+        output.innerHTML = `You got it !!!, the right number was ${guess}. It only took you ${tries} tries`
     } else if(answer > guess){
         output.innerHTML = "Too high, try again"
     } else if(answer < guess){
