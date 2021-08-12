@@ -53,7 +53,13 @@ console.log(age3)
 console.log(isHuman3)
 console.log(empty3)
 
-// like 'let', a const variable cannot be reassigned
+/* like 'let', a const variable cannot be reassigned, as a general rule, always declare a variable with const unless you
+know that the value will change
+ */
+
+// JavaScript is an Unscripted Dynamic Language
+
+
 
 
 
