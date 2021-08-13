@@ -5,12 +5,16 @@ String Methods help us work with Strings
 // .toUppercase():
 let sos = 'help me, i can\'t swim';
 let sosShout = sos.toUpperCase(); // changes our string to all capital letters
+console.log('before: ' + sos)
 console.log('toUppercase() method: ' + sosShout)
+console.log("")
 
 // .toLowerCase():
 let loud = 'IS THIS QUIET ENOUGHT ?';
 let quiet = loud.toLowerCase(); // changes our string to all lowercase letters
+console.log('before: ' + loud);
 console.log('toLowerCase() method: ' + quiet);
+console.log()
 
 // slice():
 let str = 'Vampire, Queen, God';
@@ -42,3 +46,8 @@ console.log('substr() method: ' + newString );
      The difference with substr() is that the second parameter specifies the length of
       the extracted part.
 */
+
+// replace()
+let replaceStr = 'Moving to Bussy Saint Georges or Chessy';
+let newReplace = replaceStr.replace('Bussy Saint Georges', 'Chartres');
+console.log('replace() method: ' + newReplace);
