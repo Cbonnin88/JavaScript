@@ -33,4 +33,8 @@ let num9 = 7;
 let num10 = 2;
 let remainder = num9 % num10;
 console.log('Modulus Operator: 7 % 2 = ' + remainder);
+console.log("")
+
+
+
 
